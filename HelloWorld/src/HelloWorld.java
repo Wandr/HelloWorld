@@ -9,7 +9,7 @@ public class HelloWorld {
 		int chicken = SimpleAddition(5, 10);
 		int soup = SimpleSubraction(7, 4);
 		
-		System.out.println("The answer is: " + chicken);
+		System.out.println("The answer is: " + chicken + " JKJK it's " + soup);
 		
 		return;
 	}
@@ -17,6 +17,11 @@ public class HelloWorld {
 	static int SimpleAddition(int x, int y)
 	{
 		return x + y;
+	}
+	
+	static int SimpleSubraction(int x, int y)
+	{
+		return x - y;
 	}
 
 }
