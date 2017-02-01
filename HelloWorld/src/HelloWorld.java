@@ -7,6 +7,7 @@ public class HelloWorld {
 		System.out.println("Hello World");
 		
 		int chicken = SimpleAddition(5, 10);
+		int soup = SimpleSubraction(7, 4);
 		
 		System.out.println("The answer is: " + chicken);
 		
